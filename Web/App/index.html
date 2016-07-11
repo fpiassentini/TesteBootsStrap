@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
@@ -26,14 +25,26 @@
       <input type="Telefone" class="form-control" id="Telefone" placeholder="Digite Telefone">
     </div>
 
+    <form class="form-search">
+        <label for="Cep">Cep:</label>
+        <input type="text" class="input-medium search-query">
+        <button type="submit" class="btn">Busca</button>
+    </form>
 
+    <div class="form-group">
+      <label for="Cidade">Cidade:</label>
+      <input type="Cidade" class="form-control" id="Cidade" placeholder="Cidade ...">
+    </div>
 
 
     <div class="checkbox">
+      <label for="Sexo">Sexo:</label>
       <label><input type="checkbox"> Feminino</label>
       <label><input type="checkbox"> Masculino</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="Incluir" class="btn btn-default">INCLUIR</button>
+    <button type="Alterar" class="btn btn-default">ALTERAR</button>
+    <button type="Sair" class="btn btn-default">SAIR</button>
   </form>
 </div>
 
